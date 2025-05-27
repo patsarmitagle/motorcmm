@@ -3,12 +3,7 @@ import subprocess
 import sys
 
 # Verificar e instalar fpdf si no está presente
-try:
-    from fpdf import FPDF
-except ImportError:
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "fpdf"])
-    from fpdf import FPDF
-
+from fpdf import FPDF
 import streamlit as st
 import json
 import sqlite3
