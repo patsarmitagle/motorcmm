@@ -1,0 +1,878 @@
+[
+    {
+        "categoria": "Innovacion",
+        "variable": "Estrategia de Producto",
+        "descripcion": "Esta área de proceso evalúa la madurez en el desarrollo y mantenimiento del motor de decisiones. Considera la existencia de un roadmap estratégico, la frecuencia de actualizaciones, la facilidad de implementación de nuevas versiones y el alineamiento del producto con las tendencias del mercado.",
+        "opciones": [
+            "El motor de decisiones corresponde a un sistema legacy mantenido internamente por perfiles expertos. No existen actualizaciones periódicas ni planificación formal de releases. Las intervenciones sobre el producto se limitan a correcciones de errores o incidentes. Aunque el motor cumple con los flujos existentes, las nuevas necesidades se resuelven por fuera del producto, generando fragmentación tecnológica.",
+            "El motor es un producto de mercado, pero se encuentra en transición hacia una nueva versión. Durante este período, el mantenimiento se restringe a correcciones menores (fixes), mientras que las iniciativas estratégicas se postergan hasta completar la migración. No existe un plan de evolución activo ni releases planificados durante este lapso.",
+            "El motor de decisiones está operativo y muestra un desempeño aceptable, pero las actualizaciones se aplican de manera esporádica y sin una estrategia comunicada ni un calendario previsible. Si bien se aplican mejoras, estas responden a urgencias operativas más que a un plan de evolución tecnológica. Los consultores cuentan con conocimiento técnico solo de la herramienta. ",
+            "El motor es un producto recomendado en el mercado. Las actualizaciones están alineadas a una estrategia y se cuenta con releases programados, aunque su implementación suele implicar esfuerzos significativos. Los tiempos de despliegue son largos, lo cual puede demorar la adopción de nuevas funcionalidades y limitar la agilidad del negocio.",
+            "El motor cuenta con una estrategia de evolución tecnológica clara y activa, sustentada en un roadmap formal. Se planifican releases menores y mayores: los menores permiten resolver issues y mejoras rápidas, mientras que los mayores incorporan capacidades avanzadas para mantener al motor a la vanguardia de la gestión del riesgo. El despliegue es ágil, está automatizado en gran parte y asegura un producto actualizado continuamente con mínima disrupción operativa."
+        ],
+        "subpreguntas": [
+            {
+                "texto": "¿Cuál es el enfoque actual para la evolución tecnológica del motor de decisiones?",
+                "opciones": [
+                    "a) No existe un plan formal de evolución; solo se hacen correcciones cuando hay errores.",
+                    "b) Hay un plan de migración hacia una nueva versión, pero no se ejecutan actualizaciones relevantes hasta completarlo.",
+                    "c) Se aplican mejoras esporádicas, mayormente en respuesta a urgencias operativas.",
+                    "d) Existe una estrategia con releases programados, aunque su implementación requiere mucho esfuerzo.",
+                    "e) Se cuenta con un roadmap activo que guía actualizaciones menores y mayores de manera ágil y continua."
+                ]
+            },
+            {
+                "texto": "¿Con qué frecuencia se actualiza el motor de decisiones?",
+                "opciones": [
+                    "a) No se actualiza regularmente, solo ante incidentes.",
+                    "b) Las actualizaciones están pausadas por una migración en curso.",
+                    "c) Ocasionalmente, sin calendario definido.",
+                    "d) Con periodicidad, siguiendo un calendario de releases predefinido.",
+                    "e) Frecuente y de manera automatizada según un plan estratégico."
+                ]
+            },
+            {
+                "texto": "¿Cuál es el nivel de esfuerzo necesario para desplegar una nueva versión del motor?",
+                "opciones": [
+                    "a) No se despliegan nuevas versiones.",
+                    "b) El despliegue está en pausa por transición a una nueva versión.",
+                    "c) Requiere mucho esfuerzo y se hace solo ante necesidad urgente.",
+                    "d) Es estructurado pero implica tiempos prolongados.",
+                    "e) Es ágil, automatizado y con mínima disrupción operativa."
+                ]
+            },
+            {
+                "texto": "¿El roadmap del motor se alinea con tendencias tecnológicas y del mercado?",
+                "opciones": [
+                    "a) No existe roadmap ni seguimiento de tendencias.",
+                    "b) El foco está en migrar, sin aún incorporar tendencias nuevas.",
+                    "c) Se hacen ajustes puntuales sin foco en innovación.",
+                    "d) Hay alineación parcial con el mercado, pero con demoras en adopción.",
+                    "e) Está completamente alineado, integrando capacidades de vanguardia."
+                ]
+            }
+        ]
+    },
+    {
+        "categoria": "Innovacion",
+        "variable": "Inteligencia Artificial",
+        "descripcion": "Evalúa el grado de incorporación de tecnologías de inteligencia artificial en el motor de decisiones. Considera desde el uso de reglas determinísticas hasta la adopción de modelos avanzados con capacidad de adaptación y optimización en tiempo real. También analiza el nivel de innovación, experimentación y evolución de las soluciones algorítmicas en la organización.",
+        "opciones": [
+            "El motor de decisiones se basa únicamente en reglas determinísticas estáticas, diseñadas y mantenidas manualmente. No se utilizan modelos predictivos ni algoritmos de análisis de datos. Las decisiones se estructuran según criterios predefinidos sin capacidad de aprendizaje o adaptación.",
+            "Se incorpora cierta analítica tradicional en la toma de decisiones, como regresiones logísticas o scorecards. Estos modelos se usan para estimar riesgo o clasificar clientes, y complementan las reglas fijas. Sin embargo, su actualización es esporádica y el nivel de innovación es limitado. La IA no forma parte del diseño ni de la ejecución del motor.",
+            "El motor admite la integración de modelos de machine learning supervisado entrenados con datos históricos (por ejemplo, árboles de decisión, boosting, random forest). Estos modelos mejoran la precisión de las decisiones y son monitoreados periódicamente. Se cuenta con capacidad de prueba y despliegue funcional desde el motor, aunque sin automatización completa en el entrenamiento o recalibración.",
+            "La plataforma permite utilizar modelos complejos, como redes neuronales, modelos secuenciales o embeddings. Además, se exploran casos de uso con IA generativa, como la generación de explicaciones de decisiones o simulación de escenarios. Algunos modelos pueden operar con datos en tiempo real y adaptarse a condiciones dinámicas (por ejemplo, cambios de comportamiento, contexto geográfico, canales digitales). Existe un área dedicada a innovación con pruebas controladas.",
+            "El motor incorpora modelos de inteligencia artificial que pueden adaptarse y mejorar de forma continua, aunque con supervisión humana y ciclos de mejora planificados. Se utilizan herramientas como AutoML, algoritmos adaptativos o pruebas multivariadas, que permiten optimizar decisiones de forma incremental. Se experimenta con técnicas más avanzadas como reinforcement learning o IA generativa, pero en contextos controlados. El foco está en garantizar la gobernanza del riesgo algorítmico, la explicabilidad de las decisiones y el cumplimiento normativo. La innovación es promovida activamente dentro de un marco de validación, trazabilidad y mejora continua."
+        ],
+        "subpreguntas": [
+            {
+                "texto": "¿Qué tipo de tecnologías se utilizan actualmente en el motor para la toma de decisiones?",
+                "opciones": [
+                    "a) Solo reglas determinísticas estáticas, sin modelos.",
+                    "b) Modelos estadísticos clásicos (scorecards, regresiones), de forma complementaria a reglas.",
+                    "c) Modelos de machine learning supervisado integrados funcionalmente (boosting, trees, etc.).",
+                    "d) Modelos avanzados como redes neuronales, modelos secuenciales o IA generativa para casos específicos.",
+                    "e) Modelos adaptativos, AutoML o IA generativa con capacidad de mejora continua bajo gobernanza."
+                ]
+            },
+            {
+                "texto": "¿Cómo se actualizan o recalibran los modelos utilizados en el motor?",
+                "opciones": [
+                    "a) No se utilizan modelos, solo reglas fijas.",
+                    "b) La actualización es manual, esporádica y no planificada.",
+                    "c) Se actualizan periódicamente, con pruebas de desempeño, pero sin automatización.",
+                    "d) Algunos modelos aprenden en tiempo real o se adaptan a cambios en el entorno.",
+                    "e) Hay procesos automatizados, supervisados, con validación de performance y cumplimiento normativo."
+                ]
+            },
+            {
+                "texto": "¿Qué nivel de experimentación y adopción de nuevas técnicas algorítmicas existe?",
+                "opciones": [
+                    "a) No se exploran nuevas técnicas.",
+                    "b) Se conoce el tema pero no se experimenta activamente.",
+                    "c) Se prueban modelos clásicos en ambientes controlados.",
+                    "d) Se exploran técnicas avanzadas como IA generativa o simulaciones.",
+                    "e) Se promueve activamente la innovación con pruebas controladas y trazabilidad."
+                ]
+            },
+            {
+                "texto": "¿Qué herramientas o enfoques de IA avanzada se aplican en la organización?",
+                "opciones": [
+                    "a) Ninguno.",
+                    "b) Scorecards o regresiones como único enfoque predictivo.",
+                    "c) Algoritmos supervisados como boosting, random forest, etc.",
+                    "d) Redes neuronales, modelos secuenciales, uso parcial de IA generativa.",
+                    "e) AutoML, reinforcement learning, IA generativa con foco en gobernanza y explicabilidad."
+                ]
+            }
+        ]
+    },
+    {
+        "categoria": "usabilidad ",
+        "variable": "Autonomía Funcional (No Code) ",
+        "descripcion": "Evalúa en qué medida las áreas de negocio pueden gestionar el motor de decisiones (reglas, flujos, datos, testing) sin depender del área de IT. Considera el uso de herramientas NoCode, entornos gráficos, validaciones funcionales y empoderamiento directo de usuarios.",
+        "opciones": [
+            "Cualquier cambio en el motor (reglas, datos, lógica) requiere intervención técnica. Los usuarios funcionales no acceden directamente ni a la configuración ni a la visualización de resultados. Las tareas están completamente centralizadas en tecnología.",
+            "Las áreas de negocio pueden visualizar reportes o realizar pruebas básicas, pero no tienen capacidad para configurar flujos ni modificar condiciones de decisión. Los cambios deben pasar por un equipo técnico intermedio.",
+            "Los usuarios funcionales pueden configurar estrategias, condiciones y rutas dentro del motor a través de interfaces gráficas NoCode, aunque con ciertas restricciones. Las reglas deben validarse por IT antes de entrar en producción, pero el diseño inicial es autónomo.",
+            "Las áreas de negocio pueden modificar, simular y validar reglas y flujos completos. Existen herramientas de control de calidad, validación y versionado integradas en la interfaz. IT participa solo en despliegues sensibles o en aprobaciones automatizadas.",
+            "El motor opera como una plataforma web funcional, donde las áreas de negocio diseñan, prueban, despliegan y monitorean sus estrategias de forma independiente. Las herramientas NoCode permiten configurar integraciones, flujos condicionales, reglas y pruebas A/B. Todo el proceso está trazado, versionado y auditado automáticamente, con controles predefinidos que aseguran la calidad y cumplimiento."
+        ],
+        "subpreguntas": [
+            {
+                "texto": "¿Qué grado de autonomía tienen las áreas de negocio para configurar reglas y flujos en el motor de decisiones?",
+                "opciones": [
+                    "a) No tienen acceso ni capacidad de configuración; todo depende de IT.",
+                    "b) Solo pueden hacer pruebas básicas o consultar reportes, sin modificar reglas.",
+                    "c) Pueden diseñar condiciones y flujos en una interfaz gráfica, pero deben ser validadas por IT.",
+                    "d) Pueden configurar y validar reglas completas con controles de calidad integrados.",
+                    "e) Pueden diseñar, probar y desplegar estrategias de forma independiente desde una plataforma web."
+                ]
+            },
+            {
+                "texto": "¿Qué tipo de herramientas están disponibles para que los usuarios funcionales operen sobre el motor?",
+                "opciones": [
+                    "a) Ninguna. Todo cambio se hace vía programación técnica.",
+                    "b) Algunas interfaces de consulta o testing limitadas.",
+                    "c) Interfaz gráfica NoCode para diseño de reglas con acceso parcial.",
+                    "d) Herramientas de simulación, testing, validación y versionado integradas.",
+                    "e) Plataforma NoCode completa para flujos, reglas, integraciones y pruebas A/B con trazabilidad automática."
+                ]
+            },
+            {
+                "texto": "¿Qué grado de participación tiene el área de IT en la implementación de cambios funcionales?",
+                "opciones": [
+                    "a) Participa en todos los cambios, incluso los menores.",
+                    "b) Actúa como intermediario necesario para cualquier modificación.",
+                    "c) Valida reglas antes de producción, pero el diseño funcional lo hace negocio.",
+                    "d) Solo interviene en casos críticos o para revisar despliegues sensibles.",
+                    "e) No es necesaria su intervención para cambios funcionales; hay gobernanza automática."
+                ]
+            },
+            {
+                "texto": "¿Existen controles o mecanismos que aseguren calidad y cumplimiento en las reglas diseñadas por negocio?",
+                "opciones": [
+                    "a) No, los cambios los hace IT y no hay visibilidad funcional.",
+                    "b) Parcialmente, a través de testing manual o reportes post implementación.",
+                    "c) Sí, mediante validaciones manuales previas al pase a producción.",
+                    "d) Sí, mediante herramientas integradas de validación, testing y control de versiones.",
+                    "e) Sí, con trazabilidad, validación automática, versionado y auditoría desde la plataforma."
+                ]
+            }
+        ]
+    },
+    {
+        "categoria": "agilidad y time to market",
+        "variable": "Agilidad en la Implementación de Cambios",
+        "descripcion": "Evalúa la velocidad y facilidad con la que pueden implementarse cambios en las políticas del motor de decisiones (reglas, estrategias, modelos), tanto en términos técnicos como funcionales. Considera también la frecuencia de actualización, la sincronización entre canales y la autonomía de los equipos de negocio para mantener el motor alineado a las necesidades del contexto.",
+        "opciones": [
+            "Cada cambio, incluso menor, requiere intervención del área técnica. Los ciclos de implementación son largos (varios días o semanas) y deben coordinarse con otras áreas. La actualización de políticas entre canales no es automática y puede generar inconsistencias o demoras en la aplicación de nuevas reglas.",
+            "Se cuenta con herramientas de configuración básica para ciertos cambios (por ejemplo, actualización de parámetros), pero la publicación final requiere soporte de IT. El tiempo estimado para aplicar cambios simples es mayor a 10 días hábiles, dado la complejidad en las pruebas. No siempre hay trazabilidad clara sobre qué versión está activa en cada canal.",
+            "Los usuarios funcionales pueden configurar y validar cambios menores (por ejemplo, tasas, límites, reglas condicionales) desde una interfaz sin código. Los despliegues pueden realizarse en menos de 5 días hábiles  y ser activados por canal, producto o segmento. Se mantiene un registro centralizado de versiones activas y su cobertura por canal.\n",
+            "Los cambios en políticas pueden configurarse, probarse y desplegarse desde el entorno funcional con un tiempo de implementación inferior a 3  días hábiles para reglas simples. El motor permite activar simultáneamente nuevas versiones en múltiples canales (web, móvil, sucursales, call center) con mínima intervención técnica. Todo el proceso es trazable, y se notifican automáticamente los cambios activos.",
+            "El motor permite que las áreas de negocio diseñen, simulen y publiquen cambios simples en horas, desde una consola web unificada. Existen mecanismos de validación, previsualización de impacto y despliegue automático por canal, con versionado y rollback disponibles. Se cuenta con sincronización total entre canales, monitoreo de adopción, y gobernanza integrada del proceso de cambios. Esto garantiza políticas siempre actualizadas y consistentes en todos los puntos de contacto con el cliente."
+        ],
+        "subpreguntas": [
+            {
+                "texto": "¿Cuánto tiempo demora, en promedio, la implementación de un cambio simple en las políticas del motor?",
+                "opciones": [
+                    "a) Más de una semana, incluso para cambios menores.",
+                    "b) Más de 10 días hábiles debido a validaciones y dependencias técnicas.",
+                    "c) Entre 3 y 5 días hábiles para cambios simples desde la interfaz funcional.",
+                    "d) Menos de 3 días hábiles con despliegue simultáneo en múltiples canales.",
+                    "e) En cuestión de horas, con despliegue automático y control de versiones."
+                ]
+            },
+            {
+                "texto": "¿Qué grado de autonomía tienen los usuarios funcionales para aplicar cambios en el motor?",
+                "opciones": [
+                    "a) Ninguno; todos los cambios requieren intervención técnica.",
+                    "b) Pueden modificar ciertos parámetros, pero dependen de IT para publicar.",
+                    "c) Pueden configurar y validar cambios menores desde una consola funcional.",
+                    "d) Pueden hacer pruebas, validar y desplegar en canales con mínima ayuda de IT.",
+                    "e) Pueden diseñar, simular, publicar y monitorear cambios sin asistencia técnica."
+                ]
+            },
+            {
+                "texto": "¿Existe sincronización automática de los cambios aplicados entre los distintos canales (web, mobile, sucursales, etc.)?",
+                "opciones": [
+                    "a) No, cada canal se actualiza manualmente y en tiempos distintos.",
+                    "b) No siempre se sincronizan a tiempo; pueden existir diferencias por canal.",
+                    "c) Hay control de cobertura por canal, pero la activación es manual.",
+                    "d) El motor permite activación simultánea entre canales con trazabilidad.",
+                    "e) Hay sincronización automática y monitoreo continuo del estado por canal."
+                ]
+            },
+            {
+                "texto": "¿Qué herramientas existen para asegurar trazabilidad y control sobre los cambios implementados?",
+                "opciones": [
+                    "a) No hay trazabilidad funcional visible.",
+                    "b) Existen reportes técnicos, pero no accesibles por negocio.",
+                    "c) Hay registro centralizado de versiones y cobertura funcional básica.",
+                    "d) Hay trazabilidad de principio a fin, con alertas y validaciones.",
+                    "e) Todo el proceso está auditado automáticamente, con rollback, simulaciones e impacto visual."
+                ]
+            }
+        ]
+        
+    },
+    {
+        "categoria": "agilidad y time to market",
+        "variable": "Capacidad de Integración y Conectividad",
+        "descripcion": "Evalúa la capacidad del motor de decisiones para conectarse con otros sistemas internos (como el core bancario, CRM, antifraude, canales digitales) y externos (open banking, bureaus, fuentes alternativas). Considera la facilidad de integración, disponibilidad de interfaces, velocidad de consulta y adaptabilidad a nuevas fuentes.",
+        "opciones": [
+            "El motor opera de forma autónoma y sin conexión con otros sistemas. Los datos se ingresan manualmente o están codificados dentro del flujo. No hay actualizaciones automáticas ni acceso en línea a sistemas fuente o destino. Las decisiones se basan en información limitada y estática, lo que genera riesgo de desalineación con el negocio.",
+            "El motor se conecta con sistemas core u otros entornos mediante procesos batch o intercambio de archivos (ej. CSV, TXT, SFTP). Las integraciones son unidireccionales y requieren intervención técnica para actualizar o corregir fallas. La latencia es alta y no permite decisiones en línea.",
+            "Se cuenta con interfaces API REST o SOAP que permiten consultar y enviar información en tiempo real desde y hacia el motor. Esto habilita decisiones inmediatas y sincronización con canales como onboarding digital, home banking o terminales de crédito. Las APIs están documentadas y cuentan con soporte técnico.\n",
+            "El motor permite exponer cualquier flujo como un servicio reutilizable, accesible desde otros sistemas sin necesidad de desarrollos adicionales. Los usuarios funcionales pueden configurar estas integraciones desde interfaces amigables, definiendo qué datos enviar y recibir, sin intervención técnica. Además, es posible consultar múltiples fuentes de datos (bases, APIs) desde el motor mediante conectores predefinidos o plantillas de integración, sin necesidad de programar. Aunque no se trata de una arquitectura full microservicios, se logra una conectividad robusta y escalable dentro del ecosistema bancario.",
+            "El motor se comporta como una plataforma abierta de decisiones, donde cualquier flujo puede ser consumido como un servicio a través de API REST sin codificación adicional. Las integraciones pueden ser diseñadas, testeadas y desplegadas por usuarios de negocio desde el entorno funcional, incluyendo lógicas condicionales de consumo, mapeo de datos y fallback. Se dispone de conectividad simplificada hacia múltiples bases de datos y servicios externos (core, bureaus, antifraude, etc.) mediante consultas sin código, con capacidad de orquestar flujos según la fuente disponible. "
+        ],
+        "subpreguntas": [
+            {
+                "texto": "¿Cómo se conectan actualmente los sistemas al motor de decisiones para enviar y recibir información?",
+                "opciones": [
+                    "a) No hay integración; los datos se cargan manualmente o están codificados.",
+                    "b) Se usan procesos batch o archivos (CSV, TXT) vía SFTP, con alta dependencia técnica.",
+                    "c) Se utilizan APIs (REST o SOAP) que permiten decisiones en línea.",
+                    "d) Los flujos del motor pueden exponerse como servicios y conectarse mediante plantillas o conectores sin programación.",
+                    "e) Las integraciones pueden diseñarse y desplegarse sin código desde interfaces funcionales, con lógica condicional y orquestación dinámica."
+                ]
+            },
+            {
+                "texto": "¿Qué tan accesible es la configuración de nuevas integraciones para los equipos funcionales?",
+                "opciones": [
+                    "a) No tienen acceso; todo depende del equipo técnico.",
+                    "b) La configuración es técnica y requiere desarrollo o scripts.",
+                    "c) La integración se hace vía APIs, con soporte técnico para configuración.",
+                    "d) Se pueden configurar integraciones funcionales mediante conectores o plantillas prediseñadas.",
+                    "e) Los usuarios de negocio pueden configurar todo el flujo de integración (envío, consulta, fallback) sin codificación."
+                ]
+            },
+            {
+                "texto": "¿Qué nivel de conectividad tiene el motor con sistemas externos como bureaus, antifraude, open banking o fuentes alternativas?",
+                "opciones": [
+                    "a) No hay conexión directa; se ingresan datos de forma manual.",
+                    "b) La consulta a fuentes externas es esporádica y requiere procesamiento previo.",
+                    "c) Se consulta en línea mediante APIs a fuentes externas específicas.",
+                    "d) Se puede consultar múltiples fuentes de datos en paralelo mediante conectores definidos.",
+                    "e) Se cuenta con orquestación de fuentes externas, selección dinámica, y fallback automatizado sin necesidad de desarrollo."
+                ]
+            },
+            {
+                "texto": "¿Qué tan rápido puede adaptarse el motor para integrar una nueva fuente de datos (interna o externa)?",
+                "opciones": [
+                    "a) Requiere un desarrollo completo y aprobación técnica; puede tardar semanas.",
+                    "b) Requiere configuración técnica y pruebas manuales; hay alta latencia.",
+                    "c) Se puede integrar en pocos días si la fuente expone una API compatible.",
+                    "d) Se hace desde plantillas funcionales, en tiempos ágiles y sin código.",
+                    "e) Se configura funcionalmente en horas, con validación automática y monitoreo de desempeño."
+                ]
+            }
+        ]
+    },
+    {
+        "categoria": "agilidad y time to market",
+        "variable": "Modalidad de Implementación Tecnológica",
+        "descripcion": "Esta categoría evalúa la arquitectura y modalidad con la que se implementa el motor de decisiones, considerando su nivel de modernización, escalabilidad, autonomía de gestión y alineación con buenas prácticas de infraestructura.",
+        "opciones": [
+            "El motor está implementado on-premise, en infraestructura local de la organización. Requiere mantenimiento intensivo por parte del área de IT interna. Carece de escalabilidad automática y su actualización o crecimiento demanda alto esfuerzo técnico.",
+            "El motor se encuentra alojado en la nube privada del cliente, con soporte de IT. Aunque la infraestructura es externa, el control operativo y los despliegues dependen del cliente. El escalamiento es manual y los tiempos de implementación son moderados.",
+            "El motor está implementado en una nube propia del proveedor, pero con infraestructura dedicada. El proveedor gestiona el mantenimiento técnico. Se dispone de buena disponibilidad, aunque con personalización limitada y mayor rigidez ante cambios.",
+            "El motor opera bajo una arquitectura cloud nativa, brindando flexibilidad para cubrir requerimientos de escalabilidad, configuración, copias de seguridad y despliegues. El soporte técnico es provisto por el proveedor, las actualizaciones se gestionan con bajo impacto operativo, y se facilita la integración con otros entornos y servicios.",
+            "El motor funciona en modalidad SaaS, totalmente administrado por el proveedor. Ofrece servicios de alta disponibilidad, elasticidad, seguridad y auditoría integrada. Las actualizaciones se aplican de forma automática y transparente, y la configuración, gestión de usuarios y despliegues se realizan desde interfaces funcionales, sin requerir intervención técnica."
+        ],
+        "subpreguntas": [
+            {
+                "texto": "¿Dónde está alojado actualmente el motor de decisiones?",
+                "opciones": [
+                    "a) En servidores locales (on-premise) gestionados por el área de IT de la organización.",
+                    "b) En una nube privada del cliente, con mantenimiento propio.",
+                    "c) En infraestructura del proveedor, pero con entorno dedicado.",
+                    "d) En una arquitectura cloud nativa del proveedor, con escalabilidad y flexibilidad.",
+                    "e) En modalidad SaaS, administrado completamente por el proveedor."
+                ]
+            },
+            {
+                "texto": "¿Cómo se gestionan las actualizaciones, mejoras o correcciones del motor?",
+                "opciones": [
+                    "a) Requieren intervención técnica intensiva y programación manual.",
+                    "b) Se coordinan internamente y dependen de IT; tienen impacto operativo moderado.",
+                    "c) Son responsabilidad del proveedor, aunque con rigidez en tiempos y personalización.",
+                    "d) Se aplican con bajo impacto, con respaldo y planificación técnica desde el proveedor.",
+                    "e) Se actualiza de forma automática y transparente, sin necesidad de intervención técnica."
+                ]
+            },
+            {
+                "texto": "¿Qué nivel de escalabilidad tiene la solución implementada?",
+                "opciones": [
+                    "a) No es escalable automáticamente; requiere provisión técnica manual.",
+                    "b) Tiene cierta escalabilidad, pero depende de IT y no es dinámica.",
+                    "c) Tiene buena disponibilidad pero el escalado no es instantáneo.",
+                    "d) Escala dinámicamente según demanda en entornos cloud nativos.",
+                    "e) Ofrece elasticidad total como servicio, sin necesidad de configuración técnica."
+                ]
+            },
+            {
+                "texto": "¿Qué nivel de autonomía tienen las áreas funcionales para operar el motor desde la plataforma?",
+                "opciones": [
+                    "a) Nulo; toda operación requiere soporte de IT.",
+                    "b) Bajo; algunas tareas son delegables, pero no la operación general.",
+                    "c) Medio; se pueden hacer tareas funcionales básicas, pero con límites.",
+                    "d) Alto; se permite configuración y seguimiento desde la interfaz, con soporte técnico para tareas críticas.",
+                    "e) Total; gestión funcional completa desde la plataforma, incluyendo usuarios, despliegues y configuraciones."
+                ]
+            }
+        ]
+        
+    },
+    {
+        "categoria": "agilidad y time to market",
+        "variable": "Capacidad de Personalización y Segmentación de Decisiones",
+        "descripcion": "Evalúa el grado en que el motor de decisiones permite adaptar las estrategias en función del perfil del cliente o contexto de evaluación. Incluye tanto la segmentación de reglas y modelos, como la flexibilidad para ajustar condiciones según comportamiento, canal o tipo de producto.",
+        "opciones": [
+            "El motor aplica una única estrategia de decisión para todos los clientes, sin distinción de perfil. No existen reglas condicionales por segmento ni diferenciación de políticas. La lógica es estática, y cualquier personalización requiere la creación de un nuevo flujo o intervención técnica.",
+            "Se implementa una segmentación manual en grupos predefinidos, como por ejemplo, rangos de score, tipo de producto o canal de ingreso. Cada grupo tiene un set distinto de reglas o decisiones, pero estas diferencias deben ser configuradas de forma manual. La lógica de segmentación está acotada y no se actualiza con datos nuevos.",
+            "El motor permite definir reglas y modelos diferenciados según el perfil del cliente (por ejemplo, comportamiento de pago, tipo de cliente, antigüedad). Estas condiciones pueden ser gestionadas desde interfaces funcionales y adaptarse a la evolución del cliente sin rediseñar el flujo. Se aplican estrategias distintas según canal, riesgo o historial.\n",
+            "La segmentación se realiza en tiempo real, considerando variables de comportamiento actual, patrones de uso, o información contextual. Se integran técnicas analíticas como clustering, y se pueden tomar decisiones diferentes aún dentro de un mismo segmento tradicional. Los cambios de estrategia se aplican automáticamente según la evolución del cliente o entorno.",
+            "El motor está capacitado para aplicar estrategias personalizadas a nivel individual. Las decisiones se ajustan automáticamente para cada cliente en función de su perfil único, comportamiento histórico y datos en tiempo real. Se utilizan modelos que consideran microsegmentos o variables transaccionales específicas. La personalización es transparente, auditable y trazable."
+        ],
+        "subpreguntas": [
+            {
+                "texto": "¿Cómo se adaptan actualmente las decisiones del motor según el perfil del cliente?",
+                "opciones": [
+                    "a) Se aplica la misma lógica para todos los clientes, sin segmentación.",
+                    "b) Existen segmentos manuales predefinidos, con reglas distintas para cada uno.",
+                    "c) Se aplican reglas diferenciadas por perfil desde interfaces funcionales, sin rediseñar flujos.",
+                    "d) Las estrategias varían en tiempo real según comportamiento, canal o contexto.",
+                    "e) Cada cliente recibe una estrategia única basada en microsegmentación o perfiles individuales."
+                ]
+            },
+            {
+                "texto": "¿Qué nivel de autonomía tiene el negocio para gestionar reglas específicas por segmento o condición?",
+                "opciones": [
+                    "a) No puede gestionarse; requiere soporte técnico para cualquier cambio.",
+                    "b) Se pueden definir algunos segmentos, pero la configuración es técnica y limitada.",
+                    "c) Las reglas segmentadas se gestionan funcionalmente con flexibilidad.",
+                    "d) Se configuran condiciones dinámicas con datos en tiempo real desde el entorno funcional.",
+                    "e) El negocio puede ajustar decisiones en tiempo real por cliente, con visibilidad total del proceso."
+                ]
+            },
+            {
+                "texto": "¿Qué tipo de segmentación se utiliza en el motor actualmente?",
+                "opciones": [
+                    "a) No se segmenta; es un único flujo de decisión.",
+                    "b) Segmentación básica por tipo de producto, canal o score, con lógica fija.",
+                    "c) Segmentación por variables de perfil del cliente, riesgo o comportamiento.",
+                    "d) Segmentación dinámica con variables contextuales y técnicas como clustering.",
+                    "e) Segmentación a nivel individual, con ajustes automáticos por cliente."
+                ]
+            },
+            {
+                "texto": "¿Cómo se actualizan las estrategias según la evolución del cliente o del entorno?",
+                "opciones": [
+                    "a) No se actualizan automáticamente; requiere rediseño del flujo.",
+                    "b) Se ajustan manualmente, y no reflejan cambios en tiempo real.",
+                    "c) Se adaptan a la evolución del cliente, sin rediseño, desde la interfaz funcional.",
+                    "d) Cambian automáticamente al detectar variaciones en comportamiento o contexto.",
+                    "e) Se recalculan en tiempo real por cliente, usando modelos adaptativos y trazables."
+                ]
+            }
+        ]
+        
+    },
+    {
+        "categoria": "agilidad y time to market",
+        "variable": " Capacidad de Ejecución Batch",
+        "descripcion": "Evalúa la capacidad del motor para ejecutar evaluaciones de decisiones de forma masiva y programada (modo batch), considerando aspectos como volumen procesable, velocidad de ejecución, flexibilidad de configuración, monitoreo del proceso, segmentación, trazabilidad y autonomía funcional.",
+        "opciones": [
+            "El motor solo admite evaluaciones en línea (on-demand). No existe una funcionalidad integrada para ejecutar procesos masivos. Las campañas u operaciones en lote deben externalizarse a otros sistemas, generando dependencia y riesgo operativo.",
+            "Se pueden ejecutar lotes de datos, pero de forma manual, cargando archivos planos (ej. CSV) y con mínima configuración. El proceso no está automatizado, no hay control de errores integrado, y los resultados se deben analizar fuera del motor. La capacidad de volumen es limitada y no hay segmentación dinámica.",
+            "El motor permite procesamiento masivo de evaluaciones mediante cargas programadas o ejecución ad-hoc. Se puede segmentar el lote por producto o canal, y configurar parámetros de ejecución (por ejemplo, simulación vs. ejecución real). Los resultados pueden visualizarse en el mismo entorno, con logs de salida y errores.",
+            "Los usuarios funcionales pueden configurar, lanzar y monitorear lotes desde una interfaz gráfica. Se pueden ejecutar múltiples estrategias en paralelo, aplicar filtros (por riesgo, región, perfil), definir ventanas horarias y obtener dashboards de desempeño. Existe control automático de errores, repetición de procesos fallidos y exportación directa de resultados.\n",
+            "El motor soporta procesamiento batch de gran escala, distribuido y optimizado para alta concurrencia. Los lotes se ejecutan automáticamente según condiciones (eventos, calendario, reglas de negocio) y notifican resultados con insights preconfigurados. Se pueden aplicar estrategias diferenciadas por grupo, registrar métricas por bloque y reutilizar configuraciones previas. Toda la operación es auditable, escalable y trazable."
+        ],
+        "subpreguntas": [
+            {
+                "texto": "¿Cómo se realizan actualmente los procesos masivos de evaluación de decisiones?",
+                "opciones": [
+                    "a) No se pueden hacer desde el motor; solo admite evaluaciones en línea.",
+                    "b) Se ejecutan manualmente cargando archivos simples, sin automatización.",
+                    "c) Se permiten cargas programadas o ad-hoc con segmentación básica y logs funcionales.",
+                    "d) Se configuran desde una interfaz gráfica con filtros, monitoreo, y control de errores.",
+                    "e) Se ejecutan automáticamente según condiciones, con métricas, orquestación y alta escalabilidad."
+                ]
+            },
+            {
+                "texto": "¿Quién puede configurar y lanzar los procesos batch desde el entorno del motor?",
+                "opciones": [
+                    "a) Solo IT, y en sistemas externos al motor.",
+                    "b) Técnicamente, mediante scripts o cargas manuales.",
+                    "c) Usuarios funcionales con soporte técnico para configuraciones puntuales.",
+                    "d) Usuarios funcionales desde la interfaz, con control total sobre filtros y ejecución.",
+                    "e) El negocio configura procesos automáticos con reglas, condiciones y reutilización de plantillas."
+                ]
+            },
+            {
+                "texto": "¿Qué nivel de segmentación y personalización permiten los procesos batch?",
+                "opciones": [
+                    "a) Ninguno; es una ejecución única para todos los registros.",
+                    "b) Segmentación básica (por tipo o canal), con configuración manual.",
+                    "c) Segmentación por parámetros funcionales, definidos al momento de la ejecución.",
+                    "d) Filtros dinámicos y paralelización de estrategias por región, perfil u horario.",
+                    "e) Estrategias diferenciadas por grupo, reglas condicionales, orquestación avanzada."
+                ]
+            },
+            {
+                "texto": "¿Qué tipo de monitoreo, control y trazabilidad se ofrece durante y después del proceso batch?",
+                "opciones": [
+                    "a) No hay monitoreo; se revisa fuera del motor.",
+                    "b) Reportes simples post-ejecución, sin logs detallados.",
+                    "c) Logs de salida y errores visibles desde el entorno funcional.",
+                    "d) Dashboards en tiempo real, reintento de errores y exportación inmediata.",
+                    "e) Auditoría completa, trazabilidad por bloque, alertas automáticas e insights incorporados."
+                ]
+            }
+        ]
+        
+    },
+    {
+        "categoria": "Escalabilidad y expansion",
+        "variable": "Capacidad de Escalabilidad y Performance",
+        "descripcion": "Evalúa la capacidad del motor de decisiones para mantener un desempeño estable y eficiente bajo distintos volúmenes de carga, así como su flexibilidad para escalar recursos según la demanda.",
+        "opciones": [
+            "El motor presenta cuellos de botella bajo alta carga o concurrencia. No se dispone de mecanismos para escalar horizontal ni verticalmente. Las evaluaciones sufren latencias y degradación de performance ante picos de uso.",
+            "El motor puede manejar cierto nivel de carga, pero requiere intervención manual para escalar. La respuesta del sistema no es consistente bajo escenarios de alta demanda y el monitoreo de rendimiento es reactivo.",
+            "El motor soporta un volumen de procesamiento moderado, con configuraciones ajustables. Se utilizan alertas y métricas básicas para identificar saturaciones, y se escalan recursos con planificación anticipada.",
+            "La arquitectura permite escalar horizontal o verticalmente de forma automática según demanda. Se monitorean indicadores clave de rendimiento, y las decisiones operativas se ajustan en tiempo real.",
+            "El motor es altamente elástico, opera en entornos distribuidos o en contenedores, y permite ajustar su infraestructura de forma proactiva. Se utilizan modelos predictivos para anticipar cargas y asegurar performance constante sin degradación."
+        ],
+        "subpreguntas": [
+            {
+                "texto": "¿Cómo responde el motor ante picos de carga o alta concurrencia?",
+                "opciones": [
+                    "a) Presenta fallas o latencias; no está preparado para cargas altas.",
+                    "b) Tolera cierta carga, pero sufre degradaciones frecuentes.",
+                    "c) Se mantiene operativo con ajustes manuales y planificación previa.",
+                    "d) Escala automáticamente según demanda, sin afectar la operación.",
+                    "e) Opera con alta elasticidad, anticipando la carga y manteniendo la performance."
+                ]
+            },
+            {
+                "texto": "¿Cómo se gestiona actualmente la escalabilidad del motor?",
+                "opciones": [
+                    "a) No se escala; la infraestructura es fija.",
+                    "b) Se escalan recursos manualmente con intervención de IT.",
+                    "c) Se planifican ajustes de capacidad ante aumentos previstos.",
+                    "d) Se aplica escalado automático (horizontal o vertical) según métricas.",
+                    "e) Se utiliza escalado predictivo basado en patrones de uso y demanda futura."
+                ]
+            },
+            {
+                "texto": "¿Qué herramientas de monitoreo de performance están disponibles?",
+                "opciones": [
+                    "a) No se monitorea; se actúa ante fallas reportadas.",
+                    "b) Monitoreo básico y reactivo ante incidentes.",
+                    "c) Hay métricas de saturación y alertas básicas.",
+                    "d) Se monitorean KPIs en tiempo real con dashboards automatizados.",
+                    "e) Se analizan métricas con modelos predictivos y alertas proactivas."
+                ]
+            },
+            {
+                "texto": "¿Cómo se asegura un tiempo de respuesta estable ante cargas variables?",
+                "opciones": [
+                    "a) No se asegura; el tiempo de respuesta varía según la carga.",
+                    "b) Se intenta mantener estable, pero depende del equipo técnico.",
+                    "c) Se logra estabilidad bajo cargas previstas, con monitoreo básico.",
+                    "d) Se ajusta automáticamente para mantener tiempos consistentes.",
+                    "e) Se anticipa la carga y se ajusta dinámicamente para asegurar performance óptima."
+                ]
+            }
+        ]
+        
+    },
+    {
+        "categoria": "Escalabilidad y expansion",
+        "variable": "Capacidad de Expansión a Nuevos Mercados y Productos",
+        "descripcion": "Evalúa en qué medida el motor de decisiones puede ser reutilizado o adaptado para nuevas líneas de producto, segmentos de clientes, unidades de negocio o geografías. Considera su modularidad, capacidad de parametrización, independencia del canal, soporte para distintos marcos regulatorios y velocidad de despliegue en nuevos contextos.",
+        "opciones": [
+            "El motor fue diseñado exclusivamente para un producto, canal o segmento específico (por ejemplo, préstamos personales presenciales). Su lógica está embebida en procesos particulares y no puede aplicarse a otros productos o canales sin rediseño completo. No admite reutilización ni expansión sin desarrollos técnicos profundos.",
+            "Es posible reutilizar el motor en otros productos o canales mediante parametrización manual, duplicando flujos o reglas y adaptándolos caso por caso. Cada expansión requiere revisión técnica y validación individual. Aunque hay cierto grado de configuración, no existe una arquitectura modular ni lógica común reutilizable.",
+            "El motor cuenta con una estructura modular y configurable que permite definir condiciones, reglas y modelos por producto, canal o segmento, desde el entorno funcional. La lógica puede replicarse y adaptarse para distintas áreas del banco (por ejemplo, consumo, tarjeta, pymes), manteniendo coherencia y trazabilidad. Se pueden gestionar versiones por mercado sin intervención técnica directa.\n",
+            "El motor permite expansión estructurada hacia nuevos mercados o productos, reutilizando componentes existentes (estrategias, conectores, reglas) con mínima intervención. Dispone de soporte para ajustar automáticamente modelos o reglas con base en los datos disponibles en cada nueva línea de negocio. La incorporación de nuevas unidades requiere solo configuración y pruebas, sin desarrollos personalizados.",
+            "El motor ha sido diseñado como una plataforma adaptable a cualquier contexto, capaz de operar en múltiples países, unidades de negocio o productos simultáneamente. Soporta configuración regionalizada (ej: política distinta por país o canal), y permite gestionar estrategias diferenciadas por área sin perder trazabilidad ni control. Los modelos pueden recalibrarse dinámicamente por contexto, y la lógica de negocio puede extenderse a canales no tradicionales (open banking, embedded finance, fintechs asociadas)."
+        ],
+        "subpreguntas": [
+            {
+                "texto": "¿En qué medida el motor puede reutilizarse para nuevos productos, segmentos o canales?",
+                "opciones": [
+                    "a) Fue diseñado para un único producto o canal y no puede reutilizarse sin rediseño.",
+                    "b) Puede reutilizarse mediante duplicación y ajustes manuales, con validación técnica.",
+                    "c) Cuenta con estructura modular que permite definir reglas por producto o segmento desde la interfaz funcional.",
+                    "d) Reutiliza componentes existentes con mínima intervención para cada nuevo producto o mercado.",
+                    "e) Es una plataforma adaptable a múltiples contextos, con configuración regionalizada y soporte multicanal."
+                ]
+            },
+            {
+                "texto": "¿Qué nivel de configuración funcional permite el motor para adaptar estrategias a nuevos contextos?",
+                "opciones": [
+                    "a) No admite configuración funcional para nuevos productos; requiere desarrollo técnico.",
+                    "b) La configuración se hace manualmente y por cada caso individual.",
+                    "c) Las condiciones y reglas pueden parametrizarse funcionalmente por canal o segmento.",
+                    "d) Las estrategias se replican y adaptan fácilmente desde componentes existentes.",
+                    "e) Permite diseñar y gestionar estrategias regionales o específicas por canal, producto o país desde la interfaz."
+                ]
+            },
+            {
+                "texto": "¿Qué nivel de intervención técnica requiere la expansión del motor a una nueva unidad de negocio o geografía?",
+                "opciones": [
+                    "a) Alta intervención técnica y rediseño completo.",
+                    "b) Requiere revisión técnica por cada nuevo uso.",
+                    "c) Se gestiona desde la funcionalidad con intervención técnica puntual.",
+                    "d) Solo requiere configuración y validación funcional.",
+                    "e) No requiere intervención técnica; se adapta automáticamente con trazabilidad."
+                ]
+            },
+            {
+                "texto": "¿Qué tan preparada está la arquitectura del motor para soportar múltiples contextos simultáneamente?",
+                "opciones": [
+                    "a) No está preparada; es monoproducto y monocanal.",
+                    "b) Soporta casos únicos por configuración, pero no simultáneos.",
+                    "c) Puede gestionar versiones distintas por canal o segmento con trazabilidad.",
+                    "d) Soporta contextos múltiples con componentes compartidos y reglas por grupo.",
+                    "e) Opera simultáneamente en distintos países, canales y productos con lógica diferenciada y centralizada."
+                ]
+            }
+        ]
+        
+    },
+    {
+        "categoria": "Analytics",
+        "variable": "Capacidad de Comparación de Políticas y Evaluación Estratégica (Champion/Challenger)",
+        "descripcion": "Evalúa el grado en que el motor de decisiones permite definir, probar y comparar diferentes estrategias o versiones de políticas de decisión, sin impactar el entorno productivo. Incluye la posibilidad de implementar esquemas Champion/Challenger, pruebas controladas, análisis de resultados y capacidad para seleccionar la mejor estrategia de forma segura y objetiva.",
+        "opciones": [
+            "Solo puede estar activa una estrategia a la vez. La única forma de evaluar un cambio es reemplazando la política actual y observando los resultados en producción. No existe posibilidad de comparación paralela, y cualquier cambio implica un riesgo directo.",
+            "Se pueden comparar los resultados de distintas políticas, pero solo después de haberlas implementado de forma secuencial. No existe ejecución paralela. La evaluación se hace offline, manualmente, y requiere recolectar datos de distintas versiones para luego analizarlos en reportes separados.",
+            "El motor permite ejecutar de forma paralela dos o más políticas sobre datos históricos o replicados, sin afectar la producción. Los usuarios funcionales pueden comparar resultados como tasa de aprobación, mora estimada, impacto en ingresos, etc. La decisión de cuál estrategia aplicar sigue siendo manual y posterior al análisis.",
+            "El motor permite definir un esquema de Champion (estrategia activa) y Challengers (estrategias alternativas). Se puede aplicar a una porción del tráfico en tiempo real o ejecutarse en modo silencioso sin impactar al cliente. La comparación es automática, con indicadores preconfigurados, y se pueden exportar reportes con los resultados comparativos. La activación del ganador aún requiere validación manual.",
+            "La plataforma soporta múltiples estrategias ejecutándose en paralelo sobre el mismo flujo, de forma controlada y sin afectar producción. Los resultados se monitorean automáticamente con dashboards comparativos. El sistema puede recomendar o activar automáticamente la política más efectiva según los indicadores de negocio, con opción de revertir. Los usuarios funcionales pueden gestionar estos esquemas desde el entorno visual sin soporte técnico, y existe trazabilidad completa del proceso."
+        ],
+        "subpreguntas": [
+            {
+                "texto": "¿Cómo se comparan actualmente distintas estrategias o versiones de políticas en el motor de decisiones?",
+                "opciones": [
+                    "a) Solo puede aplicarse una estrategia a la vez en producción.",
+                    "b) Se comparan versiones de forma secuencial y manual, luego de implementarlas.",
+                    "c) Se pueden ejecutar estrategias paralelas sobre datos históricos o replicados, sin afectar producción.",
+                    "d) Se aplica un esquema Champion/Challenger con comparaciones automáticas y tráfico segmentado.",
+                    "e) Se prueban múltiples políticas en paralelo sobre producción controlada, con dashboards y activación recomendada automáticamente."
+                ]
+            },
+            {
+                "texto": "¿Qué grado de autonomía tiene el área de negocio para definir y gestionar pruebas estratégicas?",
+                "opciones": [
+                    "a) Ninguno; los cambios y pruebas deben ser ejecutados por IT.",
+                    "b) Pueden proponer cambios, pero la ejecución técnica es externa y lenta.",
+                    "c) Pueden lanzar pruebas paralelas sobre datos históricos desde el entorno funcional.",
+                    "d) Pueden definir esquemas Champion/Challenger y segmentar tráfico funcionalmente.",
+                    "e) Gestionan pruebas y activación desde la interfaz, con trazabilidad y mínima intervención técnica."
+                ]
+            },
+            {
+                "texto": "¿Cómo se visualizan los resultados comparativos de las estrategias testeadas?",
+                "opciones": [
+                    "a) No hay visualización; solo se observa el efecto en KPIs generales.",
+                    "b) Se analizan en reportes manuales o externos.",
+                    "c) Se obtienen métricas clave (ej. aprobación, riesgo, ingresos) desde el entorno funcional.",
+                    "d) Se exportan reportes comparativos con KPIs preconfigurados automáticamente.",
+                    "e) Se visualizan en dashboards dinámicos con insights automatizados y recomendaciones."
+                ]
+            },
+            {
+                "texto": "¿Puede el sistema ayudar a seleccionar o activar automáticamente la mejor estrategia?",
+                "opciones": [
+                    "a) No; los cambios son 100% manuales.",
+                    "b) No; requiere validación externa y nueva implementación.",
+                    "c) Sí, pero la selección es manual posterior al análisis.",
+                    "d) Sí, puede recomendar automáticamente una estrategia, aunque la activación es manual.",
+                    "e) Sí, puede activar la mejor opción automáticamente, con opción de revertir, todo gestionado funcionalmente."
+                ]
+            }
+        ]
+        
+    },
+    {
+        "categoria": "Analytics",
+        "variable": "Capacidad de Simulación y Testeo de Estrategias",
+        "descripcion": "Evalúa el grado de preparación del motor de decisiones para validar estrategias antes de su despliegue productivo. Incluye la existencia de entornos de pruebas, capacidad para simular escenarios hipotéticos (what if), realizar pilotos controlados, ejecutar pruebas en lote (batch) y comparar resultados mediante pruebas A/B.",
+        "opciones": [
+            "Las estrategias se implementan directamente en producción sin entorno de prueba. Cualquier validación se realiza una vez aplicadas las reglas, lo que implica riesgos operativos significativos. No se pueden ejecutar escenarios ni pruebas previas, y no hay posibilidad de analizar impacto antes del cambio.",
+            "Se realizan simulaciones sobre datos históricos, pero fuera del motor (por ejemplo, en Excel o herramientas externas). Se pueden ejecutar procesos en lote (batch) exportando archivos, pero sin soporte integrado ni visualización inmediata de los resultados. Las pruebas son útiles pero lentas, dependientes del equipo técnico y con trazabilidad limitada.",
+            "El motor cuenta con funcionalidades internas para simular estrategias utilizando datos históricos, permitiendo ver el impacto en métricas clave (tasa de aprobación, score promedio, distribución por segmento). Las simulaciones pueden ejecutarse en lote desde el entorno funcional, sin intervención técnica. Se puede realizar simulación de escenarios what if (por ejemplo, “¿qué pasa si modifico esta regla?”) y comparar los resultados en un entorno seguro.\n",
+            "El motor permite ejecutar estrategias alternativas en producción mediante lógica de cupos aleatorios, sin afectar negativamente el servicio. Se puede definir un porcentaje (por ejemplo, 10%, 30%) de las evaluaciones que utilizarán una nueva política, y el resto continúa con la estrategia actual. Esta distribución se configura desde el entorno funcional, sin desarrollos adicionales. Los resultados de cada política se comparan mediante dashboards o reportes específicos. La funcionalidad permite evaluar cambios antes de su implementación total y reducir riesgos en despliegues.",
+            "Los usuarios funcionales pueden definir y administrar pruebas A/B o pilotos directamente desde el entorno gráfico del motor, seleccionando la proporción del tráfico asignado a cada estrategia (por canal, producto, segmento u otro criterio). Se configuran controles de exposición, métricas clave y condiciones de activación, todo sin requerir soporte técnico. El análisis de impacto entre variantes se realiza desde herramientas visuales del motor, y los resultados pueden utilizarse para decidir manualmente cuál política escalar. Aunque no hay aprendizaje automático, el proceso completo está trazado, auditable y se puede repetir fácilmente para nuevas versiones."
+        ],
+        "subpreguntas": [
+            {
+                "texto": "¿Cómo se validan actualmente las estrategias antes de ser implementadas en producción?",
+                "opciones": [
+                    "a) No se valida; los cambios se aplican directamente en producción.",
+                    "b) Se simulan en herramientas externas (como Excel), sin integración con el motor.",
+                    "c) Se pueden simular dentro del motor con datos históricos y métricas clave.",
+                    "d) Se ejecutan pilotos con cupos aleatorios configurables funcionalmente.",
+                    "e) Se definen pruebas A/B desde el entorno gráfico, con métricas y control de exposición."
+                ]
+            },
+            {
+                "texto": "¿Qué herramientas están disponibles para simular escenarios 'what if'?",
+                "opciones": [
+                    "a) No se pueden ejecutar escenarios previos.",
+                    "b) Se evalúan manualmente fuera del motor con archivos exportados.",
+                    "c) Se pueden simular cambios de reglas en un entorno seguro y visualizar el impacto.",
+                    "d) Se puede probar una nueva política sobre una muestra del tráfico real.",
+                    "e) Se pueden configurar múltiples escenarios simultáneos por canal, producto o segmento."
+                ]
+            },
+            {
+                "texto": "¿Qué grado de autonomía tienen los usuarios funcionales para gestionar las simulaciones?",
+                "opciones": [
+                    "a) Ninguno; depende completamente del área técnica.",
+                    "b) Pueden solicitar simulaciones, pero la ejecución es técnica y lenta.",
+                    "c) Pueden lanzar simulaciones directamente desde el entorno funcional.",
+                    "d) Pueden configurar y activar pilotos funcionales con segmentación y resultados comparativos.",
+                    "e) Pueden diseñar, ejecutar y analizar A/B tests completos desde la interfaz gráfica, sin soporte técnico."
+                ]
+            },
+            {
+                "texto": "¿Qué tipo de análisis se realiza sobre los resultados de las simulaciones o pilotos?",
+                "opciones": [
+                    "a) No se analiza antes del cambio; se observa el impacto real después.",
+                    "b) Se revisan indicadores manualmente con reportes externos.",
+                    "c) Se visualizan métricas clave (ej. aprobación, riesgo, ingreso) dentro del motor.",
+                    "d) Se accede a dashboards comparativos por estrategia, configurables por el usuario.",
+                    "e) Se dispone de herramientas visuales con trazabilidad, segmentación, y posibilidad de reutilizar pruebas."
+                ]
+            }
+        ]
+        
+    },
+    {
+        "categoria": "Analytics",
+        "variable": "Capacidad de Explicabilidad y Transparencia",
+        "descripcion": "Evalúa el nivel en que el motor de decisiones permite comprender, justificar y auditar cómo se toman las decisiones. Considera tanto la capacidad de registrar qué reglas o modelos fueron ejecutados, como el nivel de detalle, trazabilidad, herramientas de interpretabilidad y cumplimiento con exigencias regulatorias.",
+        "opciones": [
+            "Las decisiones se aplican sin generar explicación visible. No existe trazabilidad ni registro del porqué se aceptó o rechazó una operación. Ni usuarios funcionales ni técnicos pueden reconstruir qué reglas o condiciones se evaluaron. En caso de reclamos o auditorías, no es posible justificar la decisión tomada.",
+            "Se documentan manualmente algunas decisiones o resultados, por ejemplo a través de notas, reportes fuera del sistema o logs parciales. Sin embargo, no existe una trazabilidad estructurada ni se puede reconstruir automáticamente el recorrido lógico de una decisión. La justificación depende de interpretación humana posterior.",
+            "El motor registra qué reglas y modelos se ejecutaron para cada caso evaluado, junto con los valores de entrada y salida. Esto permite reconstruir una decisión específica mediante logs funcionales, y brinda información suficiente para revisiones internas o resolución de casos. Sin embargo, no siempre está disponible de forma visual o accesible para no técnicos.",
+            "El motor genera de forma automática un resumen o reporte de decisión, que explica qué reglas se aplicaron, qué variables influyeron más y cuál fue el resultado de cada condición evaluada. Esta información puede ser visualizada por usuarios de negocio, exportada para análisis o enviada a áreas de cumplimiento. El sistema permite auditar decisiones individuales sin intervención técnica.",
+            "El motor dispone de mecanismos que permiten explicar de forma clara y comprensible las decisiones tomadas, incluso cuando se utilizan modelos más complejos. Se identifican las principales variables que influyen en cada decisión, y se presentan de forma visual o en reportes funcionales accesibles para usuarios no técnicos. La plataforma facilita la generación de documentación para cumplimiento normativo (por ejemplo, informes por lote o reportes de decisiones individuales) y está alineada con requisitos de transparencia exigidos por entes regulatorios. "
+        ],
+        "subpreguntas": [
+            {
+                "texto": "¿Qué grado de trazabilidad existe sobre las decisiones tomadas por el motor?",
+                "opciones": [
+                    "a) No hay trazabilidad; no se puede justificar por qué se tomó una decisión.",
+                    "b) Se documentan manualmente algunas decisiones, fuera del sistema.",
+                    "c) Se registran reglas y modelos ejecutados con datos de entrada/salida, disponibles en logs.",
+                    "d) Se genera automáticamente un reporte explicativo con condiciones evaluadas y resultados.",
+                    "e) Se ofrece una explicación clara y visual, incluso para modelos complejos, con reportes funcionales y regulatorios."
+                ]
+            },
+            {
+                "texto": "¿Quién puede acceder a la explicación de una decisión y en qué formato?",
+                "opciones": [
+                    "a) Nadie; no se registra información sobre cómo se tomó la decisión.",
+                    "b) Solo personal técnico, revisando logs manuales.",
+                    "c) Usuarios técnicos y funcionales, mediante logs internos del motor.",
+                    "d) Usuarios funcionales pueden acceder a reportes automáticos por caso o lote.",
+                    "e) Cualquier usuario habilitado puede acceder a explicaciones comprensibles y visuales, integradas con requerimientos normativos."
+                ]
+            },
+            {
+                "texto": "¿Qué información se incluye al reconstruir una decisión?",
+                "opciones": [
+                    "a) No se puede reconstruir la decisión tomada.",
+                    "b) Solo el resultado final y notas manuales o parciales.",
+                    "c) Reglas aplicadas, valores de entrada/salida y ejecución de modelos.",
+                    "d) Condiciones, variables relevantes y resultados de cada etapa del flujo.",
+                    "e) Variables clave explicadas, impacto de cada una y resumen visual listo para auditoría o cumplimiento."
+                ]
+            },
+            {
+                "texto": "¿Cómo se da soporte a requerimientos regulatorios o auditorías sobre decisiones tomadas?",
+                "opciones": [
+                    "a) No se cuenta con herramientas ni registros para cumplir con estos requerimientos.",
+                    "b) Se responde manualmente con base en documentos o reportes no integrados.",
+                    "c) Se pueden generar logs detallados por caso desde el motor para revisión técnica.",
+                    "d) Se exportan reportes funcionales para cumplimiento y auditoría con trazabilidad por caso.",
+                    "e) La plataforma genera automáticamente documentación por lote o caso, alineada a normativas regulatorias."
+                ]
+            }
+        ]
+        
+    },
+    {
+        "categoria": "Expertise",
+        "variable": "Consultoría de Producto",
+        "descripcion": "Esta área de proceso evalúa el tipo de consultoria que acompaña, tanto la implementación como el mantenimiento del plroducto.  Considera la forma en que se puede acceder al soporte ",
+        "opciones": [
+            "No existe un canal formal de soporte. Los incidentes se resuelven de forma informal o dependen de conocimientos puntuales de personas clave. No hay SLA ni documentación de resolución.",
+            "Se cuenta con acceso a soporte técnico bajo demanda, pero sin acuerdos de nivel de servicio. Las consultas o problemas pueden demorar días en resolverse y dependen de la disponibilidad del proveedor. El soporte y canal de atención requiere se adecue al idioma del proveedor. \n",
+            "El soporte incluye asistencia técnica y funcional, con canales diferenciados. El proveedor comunica a pedido del cliente las  mejoras y evolución del motor. Se cuenta con un SLA estandar para resolución de incidentes. ",
+            "El soporte incluye asistencia técnica y funcional, con canales diferenciados. Se dispone de materiales actualizados , y el proveedor participa activamente en mejoras y evolución del motor que son comunicados al cliente. Se cuenta con un SLA por tipo de cliente. Los consultores que interactuan con el cliente tienen conocimientos de la herramienta y algún expertise en el negocio. ",
+            "La consultoría y el soporte son estratégicos. Se cuenta con un equipo de expertos asignado, sesiones regulares de mejora continua, atención proactiva y orientación a resultados. El soporte incluye entrenamiento continuo, simulaciones y acompañamiento en pruebas. El proveedor ofrece un SLA diferenciado de acuerdo al tipo de cliente y sus necesidades de soporte. Los consultores asignados. "
+        ],
+        "subpreguntas": [
+            {
+                "texto": "¿Qué tipo de soporte está disponible para resolver problemas técnicos o funcionales del motor?",
+                "opciones": [
+                    "a) No existe canal formal; se resuelve informalmente o con personas clave.",
+                    "b) Hay soporte técnico bajo demanda, sin SLA ni garantías de respuesta.",
+                    "c) Se cuenta con soporte técnico y funcional, con SLA estandarizado.",
+                    "d) Existen canales diferenciados, materiales actualizados y SLA por tipo de cliente.",
+                    "e) Hay soporte estratégico con equipo asignado, entrenamientos, simulaciones y atención proactiva."
+                ]
+            },
+            {
+                "texto": "¿Qué grado de conocimiento tienen los consultores que acompañan la implementación y evolución del motor?",
+                "opciones": [
+                    "a) No hay consultores asignados o el conocimiento es limitado y disperso.",
+                    "b) Hay soporte técnico, pero sin conocimiento funcional del negocio.",
+                    "c) Los consultores conocen la herramienta y responden ante requerimientos específicos.",
+                    "d) Los consultores asignados entienden la herramienta y tienen nociones del negocio.",
+                    "e) El equipo de soporte incluye expertos en producto y negocio, con enfoque consultivo y proactivo."
+                ]
+            },
+            {
+                "texto": "¿Cómo se comunica el proveedor con el cliente sobre actualizaciones y mejoras del producto?",
+                "opciones": [
+                    "a) No se comunican actualizaciones; el cliente debe consultarlas por su cuenta.",
+                    "b) Se informa si el cliente lo solicita, sin seguimiento regular.",
+                    "c) El proveedor comunica mejoras cuando hay requerimientos o nuevas versiones.",
+                    "d) Hay una comunicación activa y programada sobre evolución del producto.",
+                    "e) Se realizan sesiones periódicas de mejora continua y planificación conjunta."
+                ]
+            },
+            {
+                "texto": "¿Qué tan alineado está el soporte con las necesidades reales del cliente (idioma, tiempo de respuesta, modalidad)?",
+                "opciones": [
+                    "a) No está alineado; depende de la disponibilidad del proveedor.",
+                    "b) Se adapta parcialmente, pero con demoras y barreras como el idioma.",
+                    "c) Cumple con SLA básicos y canales formales, aunque sin personalización.",
+                    "d) Se adapta por tipo de cliente, con atención en el idioma y tiempos adecuados.",
+                    "e) Ofrece soporte personalizado con SLA flexibles y enfoque en resultados específicos del cliente."
+                ]
+            }
+        ]
+        
+    },
+    {
+        "categoria": "Seguridad, auditoria y trazabilidad",
+        "variable": "Capacidad de Gobierno de Usuarios y Permisos ",
+        "descripcion": "Evalúa cómo se gestiona el acceso de los distintos perfiles al motor de decisiones, con foco en control de permisos, trazabilidad de acciones y cumplimiento con principios de mínima exposición.",
+        "opciones": [
+            "No hay control granular de accesos. Se utilizan credenciales genéricas o compartidas. Las acciones realizadas por los usuarios no quedan registradas y no existe trazabilidad.",
+            "Se definen usuarios individualmente, pero con permisos globales o poco diferenciados. La gestión se realiza manualmente y no hay políticas de expiración ni revisión periódica.",
+            "El motor permite asignar a usuarios  roles con permisos diferenciados por funcionalidad (lectura, edición, publicación). Se registra actividad por usuario, aunque sin análisis regular ni control de segregación.",
+            "La herramienta permite una gestión de accesos  alineada a políticas formales de seguridad. Permite configurar  perfiles diferenciados por tipo de usuario (negocio, IT, soporte), con permisos asignados por rol. Se dispone de reportes de control  para validar la vigencia de los accesos. Las acciones de los usuarios quedan registradas en logs y están disponibles para auditoría.",
+            "El motor admite esquemas de control de acceso refinados, como autenticación multifactor (cuando está disponible) e integración con sistemas de identidad del cliente (SSO o directorio activo). La asignación de permisos es granular y flexible, con posibilidad de auditar qué usuarios accedieron a qué recursos, cuándo y con qué nivel de privilegio.  La trazabilidad y el análisis de acciones de los usuarios permiten identificar comportamientos sospechosos si se integran con herramientas externas de monitoreo."
+        ],
+        "subpreguntas": [
+            {
+                "texto": "¿Cómo se gestiona actualmente el acceso de los usuarios al motor de decisiones?",
+                "opciones": [
+                    "a) Se usan credenciales genéricas o compartidas, sin control individual.",
+                    "b) Los usuarios tienen acceso individual, pero con permisos amplios y sin segmentación.",
+                    "c) Se asignan roles diferenciados por funcionalidad (lectura, edición, publicación).",
+                    "d) Se gestionan perfiles por rol (negocio, IT, soporte), alineados a políticas de seguridad.",
+                    "e) Se utiliza control de acceso refinado con integración SSO y permisos granulares por recurso."
+                ]
+            },
+            {
+                "texto": "¿Qué trazabilidad existe sobre las acciones realizadas por los usuarios en el sistema?",
+                "opciones": [
+                    "a) No hay registro de acciones; no se puede auditar.",
+                    "b) Algunas acciones se documentan manualmente, sin logs estructurados.",
+                    "c) Las acciones quedan registradas por usuario, pero sin revisión periódica.",
+                    "d) Hay logs detallados accesibles para auditoría, con reportes de control.",
+                    "e) Las acciones son auditables, trazadas y pueden integrarse con sistemas externos de monitoreo."
+                ]
+            },
+            {
+                "texto": "¿Cómo se controlan los permisos y la vigencia de accesos al sistema?",
+                "opciones": [
+                    "a) No hay control de permisos ni revisión de accesos activos.",
+                    "b) Se hace manualmente, sin expiración automática ni revisiones.",
+                    "c) Los permisos se asignan por rol funcional, pero sin validaciones periódicas.",
+                    "d) Se revisan accesos activamente con reportes de vigencia y asignación por tipo de usuario.",
+                    "e) Se aplican políticas de mínima exposición con caducidad, auditoría y control centralizado de identidad."
+                ]
+            },
+            {
+                "texto": "¿Qué mecanismos de autenticación están disponibles en el acceso al motor?",
+                "opciones": [
+                    "a) Usuario y contraseña sin controles adicionales.",
+                    "b) Acceso individual básico sin autenticación reforzada.",
+                    "c) Autenticación con validaciones estándar del proveedor.",
+                    "d) Soporte para autenticación multifactor y control por perfil.",
+                    "e) Integración con SSO / directorio activo, MFA, y políticas avanzadas de autenticación y monitoreo."
+                ]
+            }
+        ]
+        
+    },
+    {
+        "categoria": "Modelo de Negocio",
+        "variable": "Pricing and licensing approach",
+        "descripcion": "Evalúa la flexibilidad y adecuación del modelo de pricing y licenciamiento para diferentes tipos de clientes y necesidades del mercado.",
+        "opciones": [
+            "El modelo de licenciamiento es fijo y no contempla las necesidades específicas de distintos segmentos de clientes.",
+            "Existen algunas variantes en el pricing, pero siguen siendo limitadas y poco flexibles.",
+            "Se ofrecen modelos de pricing diferenciados según el tamaño o tipo de cliente.",
+            "El modelo de pricing contempla consumo, licencias por módulo y opciones escalables.",
+            "El modelo de licenciamiento es completamente flexible, orientado a valor, y adaptable a múltiples industrias."
+        ],
+        "subpreguntas": [
+            {
+                "texto": "¿Qué grado de personalización permite el modelo de licenciamiento actual?",
+                "opciones": [
+                    "a) Es un modelo único y fijo, sin posibilidad de adaptación.",
+                    "b) Tiene algunas variantes, pero con poca flexibilidad.",
+                    "c) Ofrece opciones diferenciadas según el tipo o tamaño del cliente.",
+                    "d) Permite licenciamiento por consumo, módulos y escalabilidad progresiva.",
+                    "e) Es totalmente flexible, basado en valor, y adaptable a distintos segmentos o industrias."
+                ]
+            },
+            {
+                "texto": "¿Qué tan alineado está el modelo de pricing con las necesidades reales del mercado?",
+                "opciones": [
+                    "a) No se adapta; es igual para todos los clientes.",
+                    "b) Se han hecho algunos ajustes, pero no responden bien a diferentes casos de uso.",
+                    "c) Está segmentado por tipo de cliente (ej. banca tradicional vs. fintech).",
+                    "d) Se adapta a consumo, integración por módulo o uso incremental.",
+                    "e) Refleja el valor aportado y puede ajustarse según la industria, escala o resultados esperados."
+                ]
+            },
+            {
+                "texto": "¿Qué tan escalable es el modelo de licenciamiento para clientes que crecen o expanden su uso?",
+                "opciones": [
+                    "a) No permite escalar fácilmente; requiere una nueva contratación.",
+                    "b) Tiene opciones limitadas de escalabilidad.",
+                    "c) Escala con el tamaño del cliente o el volumen de decisiones.",
+                    "d) Escala automáticamente según uso, número de usuarios o módulos activados.",
+                    "e) Se adapta dinámicamente al crecimiento del cliente, sin fricciones comerciales."
+                ]
+            },
+            {
+                "texto": "¿Qué mecanismos existen para licenciar productos o servicios del motor de decisiones?",
+                "opciones": [
+                    "a) Solo hay una forma de licenciamiento estándar.",
+                    "b) Se ofrecen algunas alternativas, pero sin integración entre ellas.",
+                    "c) Se puede licenciar por cliente, tipo de solución o volumen.",
+                    "d) Existen esquemas por consumo, uso por canal, o por módulo funcional.",
+                    "e) El modelo admite combinaciones flexibles, licencias basadas en valor, ROI o resultados obtenidos."
+                ]
+            }
+        ]
+
+    }
+]
