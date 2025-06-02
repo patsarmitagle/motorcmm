@@ -340,13 +340,6 @@ if st.button("💾 Guardar resultados y generar PDF"):
     st.success("✅ Respuestas guardadas correctamente.")
     st.download_button("📄 Descargar PDF", data=open(ruta_pdf, "rb"), file_name=nombre_archivo)
 
-    # DEBUG: Mostrar todas las respuestas guardadas
-    if st.checkbox("🛠️ Mostrar respuestas guardadas en la base de datos"):
-        cursor.execute("SELECT * FROM respuestas")
-        registros = cursor.fetchall()
-        st.write("📄 Respuestas en la base de datos:")
-        for fila in registros:
-            st.write(fila)
 
     import pandas as pd
 
