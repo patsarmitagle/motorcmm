@@ -252,6 +252,7 @@ if st.button("💾 Guardar resultados y generar PDF"):
     # --- CREAR PDF ---
     class PDF(FPDF):
         def header(self):
+            self.image("logo.png", x=10, y=8, w=30)  # x/y = posición en mm, w = ancho del logo
             if hasattr(self, "dejavu"):
                 self.set_font("DejaVu", "B", 14)
             else:
