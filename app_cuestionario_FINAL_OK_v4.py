@@ -251,35 +251,35 @@ if st.button("💾 Guardar resultados y generar PDF"):
 
     # --- CREAR PDF ---
     class PDF(FPDF):
-    def header(self):
-        if hasattr(self, "dejavu"):
-            self.set_font("DejaVu", "B", 14)
-        else:
-            self.set_font("Arial", "B", 14)
-        self.cell(0, 10, "Reporte de Evaluación de Madurez de Motor de Decisión", ln=True, align="C")
+        def header(self):
+            if hasattr(self, "dejavu"):
+                self.set_font("DejaVu", "B", 14)
+            else:
+                self.set_font("Arial", "B", 14)
+            self.cell(0, 10, "Reporte de Evaluación de Madurez de Motor de Decisión", ln=True, align="C")
 
-        if hasattr(self, "dejavu"):
-            self.set_font("DejaVu", "", 10)
-        else:
-            self.set_font("Arial", "", 10)
-        self.cell(0, 10, f"Usuario: {nombre_usuario} | Empresa: {nombre_empresa} | Email: {nombre_email} | Fecha: {fecha_actual}", ln=True, align="C")
-        self.ln(10)
+            if hasattr(self, "dejavu"):
+                self.set_font("DejaVu", "", 10)
+            else:
+                self.set_font("Arial", "", 10)
+            self.cell(0, 10, f"Usuario: {nombre_usuario} | Empresa: {nombre_empresa} | Email: {nombre_email} | Fecha: {fecha_actual}", ln=True, align="C")
+            self.ln(10)
 
-    def chapter_title(self, title):
-        if hasattr(self, "dejavu"):
-            self.set_font("DejaVu", "B", 12)
-        else:
-            self.set_font("Arial", "B", 12)
-        self.cell(0, 10, title, ln=True)
-        self.ln(2)
+        def chapter_title(self, title):
+            if hasattr(self, "dejavu"):
+                self.set_font("DejaVu", "B", 12)
+            else:
+                self.set_font("Arial", "B", 12)
+            self.cell(0, 10, title, ln=True)
+            self.ln(2)
 
-    def chapter_body(self, body):
-        if hasattr(self, "dejavu"):
-            self.set_font("DejaVu", "", 11)
-        else:
-            self.set_font("Arial", "", 11)
-        self.multi_cell(0, 10, body)
-        self.ln()
+        def chapter_body(self, body):
+            if hasattr(self, "dejavu"):
+                self.set_font("DejaVu", "", 11)
+            else:
+                self.set_font("Arial", "", 11)
+            self.multi_cell(0, 10, body)
+            self.ln()
     
     pdf = PDF()
     pdf.add_page()
