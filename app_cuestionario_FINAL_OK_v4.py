@@ -256,8 +256,9 @@ if st.button("💾 Guardar resultados y generar PDF"):
             if hasattr(self, "dejavu"):
                 self.set_font("DejaVu", "B", 14)
             else:
+                self.set_xy(0, 25)
                 self.set_font("Arial", "B", 14)
-            self.cell(0, 10, "Reporte de Evaluación de Madurez de Motor de Decisión", ln=True, align="C")
+            self.cell(0, 10, "Reporte de Evaluación de Madurez de Motor de Decisión", border=False,ln=True, align="C")
 
             if hasattr(self, "dejavu"):
                 self.set_font("DejaVu", "", 10)
