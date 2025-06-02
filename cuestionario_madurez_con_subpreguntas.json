@@ -108,7 +108,7 @@
         ]
     },
     {
-        "categoria": "usabilidad ",
+        "categoria": "Usabilidad ",
         "variable": "Autonomía Funcional (No Code) ",
         "descripcion": "Evalúa en qué medida las áreas de negocio pueden gestionar el motor de decisiones (reglas, flujos, datos, testing) sin depender del área de IT. Considera el uso de herramientas NoCode, entornos gráficos, validaciones funcionales y empoderamiento directo de usuarios.",
         "opciones": [
@@ -162,7 +162,7 @@
         ]
     },
     {
-        "categoria": "agilidad y time to market",
+        "categoria": "Agilidad y Time to market",
         "variable": "Agilidad en la Implementación de Cambios",
         "descripcion": "Evalúa la velocidad y facilidad con la que pueden implementarse cambios en las políticas del motor de decisiones (reglas, estrategias, modelos), tanto en términos técnicos como funcionales. Considera también la frecuencia de actualización, la sincronización entre canales y la autonomía de los equipos de negocio para mantener el motor alineado a las necesidades del contexto.",
         "opciones": [
@@ -217,7 +217,7 @@
         
     },
     {
-        "categoria": "agilidad y time to market",
+        "categoria": "Agilidad y Time to market",
         "variable": "Capacidad de Integración y Conectividad",
         "descripcion": "Evalúa la capacidad del motor de decisiones para conectarse con otros sistemas internos (como el core bancario, CRM, antifraude, canales digitales) y externos (open banking, bureaus, fuentes alternativas). Considera la facilidad de integración, disponibilidad de interfaces, velocidad de consulta y adaptabilidad a nuevas fuentes.",
         "opciones": [
@@ -271,7 +271,7 @@
         ]
     },
     {
-        "categoria": "agilidad y time to market",
+        "categoria": "Agilidad y Time to market",
         "variable": "Modalidad de Implementación Tecnológica",
         "descripcion": "Esta categoría evalúa la arquitectura y modalidad con la que se implementa el motor de decisiones, considerando su nivel de modernización, escalabilidad, autonomía de gestión y alineación con buenas prácticas de infraestructura.",
         "opciones": [
@@ -326,7 +326,7 @@
         
     },
     {
-        "categoria": "agilidad y time to market",
+        "categoria": "Agilidad y Time to market",
         "variable": "Capacidad de Personalización y Segmentación de Decisiones",
         "descripcion": "Evalúa el grado en que el motor de decisiones permite adaptar las estrategias en función del perfil del cliente o contexto de evaluación. Incluye tanto la segmentación de reglas y modelos, como la flexibilidad para ajustar condiciones según comportamiento, canal o tipo de producto.",
         "opciones": [
@@ -381,7 +381,7 @@
         
     },
     {
-        "categoria": "agilidad y time to market",
+        "categoria": "Agilidad y Time to market",
         "variable": " Capacidad de Ejecución Batch",
         "descripcion": "Evalúa la capacidad del motor para ejecutar evaluaciones de decisiones de forma masiva y programada (modo batch), considerando aspectos como volumen procesable, velocidad de ejecución, flexibilidad de configuración, monitoreo del proceso, segmentación, trazabilidad y autonomía funcional.",
         "opciones": [
@@ -822,7 +822,7 @@
     },
     {
         "categoria": "Modelo de Negocio",
-        "variable": "Pricing and licensing approach",
+        "variable": "Pricing y enfoque licenciamiento",
         "descripcion": "Evalúa la flexibilidad y adecuación del modelo de pricing y licenciamiento para diferentes tipos de clientes y necesidades del mercado.",
         "opciones": [
             "El modelo de licenciamiento es fijo y no contempla las necesidades específicas de distintos segmentos de clientes.",
