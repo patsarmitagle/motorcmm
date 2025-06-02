@@ -347,3 +347,12 @@ if st.button("💾 Guardar resultados y generar PDF"):
         st.write("📄 Respuestas en la base de datos:")
         for fila in registros:
             st.write(fila)
+
+    import pandas as pd
+
+    if st.checkbox("🛠️ Mostrar respuestas guardadas en la base de datos"):
+        cursor.execute("SELECT * FROM respuestas")
+        registros = cursor.fetchall()
+        columnas = [desc[0] for desc in cursor.description]  # nombres de columnas
+        df_debug = pd.DataFrame(registros, columns=columnas)
+        st.dataframe(df_debug)          
